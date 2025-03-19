@@ -103,16 +103,6 @@ We would like to express our sincere gratitude to [VLM-R1](https://github.com/om
 ## Citation
 If you find this project useful, welcome to cite us.
 ```bib
-@misc{shen2025vlmr1,
-  author       = {Shen, Haozhan and Zhang, Zilun and Zhang, Qianqian and Xu, Ruochen and Zhao, Tiancheng},
-  title        = {VLM-R1: A stable and generalizable R1-style Large Vision-Language Model},
-  howpublished = {\url{https://github.com/om-ai-lab/VLM-R1}},
-  note         = {Accessed: 2025-02-15},
-  year         = {2025}
-}
-```
-
-```bib
 @misc{long2025OmniRL,
   author       = {Long, Rujiao and Jin, Ziyu and Wang, Zhan and Huang, Zijin and Cheng, Qiannan and Yi, Lei},
   title        = {OmniRL: Omni Reward and Loss Scheme for Vision-Language R1 Model Training},
