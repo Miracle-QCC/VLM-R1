@@ -86,6 +86,8 @@ torchrun --nproc_per_node="8" \
     --save_only_model true
 ```
 
+## Evaluation
+
 > 1. Download the provided [RefGTA images](https://huggingface.co/datasets/omlab/VLM-R1/resolve/main/refgta.zip).
 ```bash
 cd ./src/eval
