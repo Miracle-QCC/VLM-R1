@@ -34,10 +34,11 @@ from transformers import (
     PreTrainedTokenizerBase,
     Qwen2VLForConditionalGeneration,
     Qwen2_5_VLForConditionalGeneration,
-    Trainer,
+    # Trainer,
     TrainerCallback,
     is_wandb_available,
 )
+from trainer.trainer_rewrite import TrainerRewrite as Trainer
 from torch.utils.data import DataLoader
 from transformers.integrations.deepspeed import is_deepspeed_zero3_enabled
 from transformers.utils import is_peft_available

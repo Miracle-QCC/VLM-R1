@@ -244,6 +244,7 @@ class LazySupervisedDataset(Dataset):
                 try:
                     image = Image.open(path).convert("RGB")
                     width, height = image.size
+                    images.append(image)
                 except Exception as e:
                     print("read image err: " + path)
                     continue
