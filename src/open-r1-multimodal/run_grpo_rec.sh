@@ -14,10 +14,10 @@ torchrun --nproc_per_node="1" \
     --master_port="12346" \
     src/open_r1/grpo_rec.py \
     --deepspeed local_scripts/zero3.json \
-    --output_dir output/$RUN_NAME \
-    --model_name_or_path /path/to/Qwen2.5-VL-3B-Instruct \
+    --output_dir /home/data/workgroup/qinchenjie/OmniRL/output/$RUN_NAME \
+    --model_name_or_path /home/data/workgroup/qinchenjie/Qwen/Qwen2.5-VL-3B-Instruct \
     --dataset_name data_config/rec.yaml \
-    --image_root /path/to/data/ \
+    --image_root /home/data/workgroup/qinchenjie/datasets \
     --max_prompt_length 1024 \
     --num_generations 8 \
     --per_device_train_batch_size 1 \

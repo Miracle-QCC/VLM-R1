@@ -434,8 +434,8 @@ def edit_similarity_score(predictions, references):
     return 1 - dist / max_len if max_len != 0 else 1
 
 reward_funcs_registry = {
-    # "accuracy": iou_reward,
-    "accuracy": accuracy_reward,
+    "accuracy": iou_reward,
+    # "accuracy": accuracy_reward,
     "format": format_reward,
     "length": len_reward,
 }

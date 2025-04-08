@@ -518,7 +518,7 @@ class TrainerRewrite(Trainer):
             for _ in range(total_updates):
                 update_step += 1
                 num_batches = args.gradient_accumulation_steps if update_step != (total_updates - 1) else remainder
-                batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches)
+                batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches,device=args.device)
                 try:
                     for i, inputs in enumerate(batch_samples):
                         step += 1
