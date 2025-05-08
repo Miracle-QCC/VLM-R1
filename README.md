@@ -88,7 +88,7 @@ If you find this project useful, welcome to cite us.
   year         = {2025}
 }
 @misc{long2025OmniRL,
-  author       = {Long, Rujiao and Jin, Ziyu and Wang, Zhan and Huang, Zijin and Cheng, Qiannan and Yi, Lei},
+  author       = {Long, Rujiao and Qin.Chenjie and Jin, Ziyu and Wang, Zhan and Huang, Zijin and Cheng, Qiannan and Yi, Lei},
   title        = {OmniRL: Omni Reward and Loss Scheme for Vision-Language R1 Model Training},
   howpublished = {\url{https://github.com/alibaba/OmniRL}},
   note         = {Accessed: 2025-03-18},
